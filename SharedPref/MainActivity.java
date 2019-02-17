@@ -16,10 +16,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Referencing the IDs and connecting them to the Java objects
         mEmailView = findViewById(R.id.email);
         mPasswordView= findViewById(R.id.password);
         checkBoxRememberMe = findViewById(R.id.checkBoxRememberMe);
         Button mEmailSignInButton =findViewById(R.id.email_sign_in_button);
+
+        //Sets a listener which listens for the event when the user clicks the button
         mEmailSignInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

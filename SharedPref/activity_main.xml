@@ -9,24 +9,15 @@
     android:orientation="vertical"
     android:padding="20sp">
 
-<android.support.design.widget.TextInputLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <EditText
-        android:id="@+id/email"
-     android:layout_width="match_parent"
+	<EditText
+     	android:id="@+id/email"
+     	android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email Address"
         android:inputType="textEmailAddress"
          android:paddingBottom="20sp"
         />
-
-</android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <EditText
+    <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,8 +26,6 @@
             android:maxLines="1"
             android:singleLine="true"
             />
-
-    </android.support.design.widget.TextInputLayout>
     <android.support.v7.widget.AppCompatCheckBox
         android:id="@+id/checkBoxRememberMe"
         android:layout_width="match_parent"
